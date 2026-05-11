@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div class="sidebar">
+  <h2>Math Academy</h2>
+
+  <a href="index.html">Home</a>
+  <a href="ratios.html">Ratios</a>
+  <a href="fractions.html">Fractions</a>
+  <a href="algebra.html">Algebra</a>
+  <a href="geometry.html">Geometry</a>
+  <a href="calculator.html">Calculator</a>
+</div>
+
+<div class="content">
+
+<h1>Calculator</h1>
+
+<div class="calculator">
+
+<input type="text" id="display" readonly>
+
+<div class="buttons">
+
+<button onclick="press('7')">7</button>
+<button onclick="press('8')">8</button>
+<button onclick="press('9')">9</button>
+<button onclick="press('/')">/</button>
+
+<button onclick="press('4')">4</button>
+<button onclick="press('5')">5</button>
+<button onclick="press('6')">6</button>
+<button onclick="press('*')">*</button>
+
+<button onclick="press('1')">1</button>
+<button onclick="press('2')">2</button>
+<button onclick="press('3')">3</button>
+<button onclick="press('-')">-</button>
+
+<button onclick="press('0')">0</button>
+<button onclick="clearDisplay()">C</button>
+<button onclick="press('=')">=</button>
+<button onclick="press('+')">+</button>
+
+</div>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
